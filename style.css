@@ -1,0 +1,49 @@
+body {
+    background-color: #003334;
+    font-style: italic;
+    font-weight: bold;
+}
+
+li {
+    padding: 2px 0 2px 0;
+    color: white;
+}
+
+.round:before {
+	content: "";
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+    background-color: red;
+    position: relative;
+    right: 24px;
+    top: 8px;
+    border-radius: 50%;
+    z-index: -100;
+    box-shadow: 5px 5px 5px black;
+}
+
+.square:before {
+	content: "";
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+    background-color: red;
+    position: relative;
+    right: 24px;
+    top: 8px;
+    z-index: -100;
+    box-shadow: 5px 5px 5px black;
+}
+
+.blue:before {
+    background-color: #2a7ca9;
+}
+
+.green:before {
+    background-color: #08c977;
+}
+
+.purple:before {
+    background-color: #62296f;
+}
